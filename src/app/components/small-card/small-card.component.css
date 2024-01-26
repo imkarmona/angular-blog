@@ -1,0 +1,75 @@
+/* Estilos padrão para telas maiores (desktop) */
+.small-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.small-card-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 90%;
+  height: 300px;
+}
+
+.small-card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.small-card-article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 90%;
+}
+
+.small-card-badges {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.small-card-badges > span {
+  background-color: #E26EE520;
+  padding: 10px;
+  border-radius: 20px;
+  color: #E26EE5;
+  font-weight: 700;
+}
+
+.small-card-title > h1{
+  font-size: 1.5rem;
+}
+
+.small-card-description > p {
+  line-height: 2rem;
+}
+
+.small-card-details > p {
+  font-weight: 700;
+  color: #11111175;
+}
+
+@media only screen and (max-width: 768px) {
+  .small-card-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .small-card-article {
+    max-width: 100%;
+  }
+
+  .small-card-photo {
+    width: 100%; /* Ajuste conforme necessário */
+    height: 300px; /* Ajuste conforme necessário */
+  }
+}

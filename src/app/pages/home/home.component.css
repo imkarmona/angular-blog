@@ -1,0 +1,32 @@
+.article-small{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
+  margin-top: 3rem;
+}
+
+.container-sec{
+  display: flex;
+  justify-content: center;
+}
+
+.article-side{
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .article-small{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .article-side{
+    display: none;
+  }
+}

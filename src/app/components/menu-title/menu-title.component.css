@@ -1,0 +1,26 @@
+.menu-title-container{
+  display: flex;
+  word-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.menu-title-container > h3{
+  color: #7E30E1;
+  font-weight: 700;
+}
+
+.menu-title-container > h1{
+  max-width: 50%;
+  font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  .menu-title-container > h1{
+    max-width: 100%;
+  }
+}
