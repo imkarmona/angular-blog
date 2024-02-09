@@ -1,14 +1,39 @@
 <app-menu-bar></app-menu-bar>
 <app-menu-title></app-menu-title>
 <div class="article-main">
-  <app-big-card></app-big-card>
+  <app-big-card
+    photoCover="https://i.ytimg.com/vi/mC78luKlqpE/maxresdefault.jpg"
+    cardTitle="Caçada ao Aracnídeo em Nova York"
+    cardDescription="O Homem-Aranha é acusado de crimes que chocam a cidade, enquanto uma sombra misteriosa surge nos becos de Manhattan. Testemunhas alegam ter visto o herói agindo de forma violenta e errática."
+    [cardTags]="['Super-Herói', 'Crime']"
+    ></app-big-card>
 </div>
 <div class="container-sec">
   <div class="article-small">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      photoCover="https://i.imgur.com/QNcWWi1.jpg"
+      cardTitle="Terror nas Ruas de Los Santos"
+      cardDescription="Relatos de um surto misterioso assolam Los Santos, com moradores relatando ataques de zumbis em locais conhecidos. Autoridades especulam sobre a ligação com experimentos clandestinos."
+      [cardTags]="['Zumbis', 'Experimentos Clandestinos']"
+    ></app-small-card>
+    <app-small-card
+    photoCover="https://i.pinimg.com/736x/51/ea/b5/51eab5aff1ce1c3bd2fad7b841072814.jpg"
+    cardTitle="Nova Ameaça em Tamriel"
+    cardDescription="Rumores surgem sobre uma antiga profecia se cumprindo em Skyrim, com o despertar de um dragão ancestral. Os cidadãos temem uma nova era de conflitos e destruição."
+    [cardTags]="['Dragões', 'Conflito Épico']"
+  ></app-small-card>
+  <app-small-card
+  photoCover="https://lumiere-a.akamaihd.net/v1/images/jawas-main_a668013b.jpeg"
+  cardTitle="Conflito nas Estrelas"
+  cardDescription="Uma nova facção separatista ameaça a paz galáctica, desafiando a Nova República em uma batalha épica pelo controle dos sistemas centrais. As forças Jedi são convocadas para deter a ascensão do lado sombrio."
+  [cardTags]="['Guerra Galáctica', 'Forças Jedi']"
+></app-small-card>
+<app-small-card
+photoCover="https://cinepop.com.br/wp-content/uploads/2021/10/residentevilbemvindo_4.jpg"
+cardTitle="Horror nas Profundezas de Raccoon City"
+cardDescription="Relatos assustadores emergem das ruínas de Raccoon City, com sobreviventes descrevendo criaturas grotescas e experiências científicas proibidas. Autoridades alertam sobre o perigo iminente de um novo surto viral."
+[cardTags]="['Surto Viral', 'Experimentos Biológicos']"
+></app-small-card>
   </div>
   <div class="article-side">
     <h2>Top Posts</h2>

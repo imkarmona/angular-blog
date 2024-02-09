@@ -27,6 +27,7 @@
 .small-card-article {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 0.5rem;
   max-width: 90%;
 }
@@ -51,11 +52,6 @@
 
 .small-card-description > p {
   line-height: 2rem;
-}
-
-.small-card-details > p {
-  font-weight: 700;
-  color: #11111175;
 }
 
 @media only screen and (max-width: 768px) {

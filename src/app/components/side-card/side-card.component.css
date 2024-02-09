@@ -40,11 +40,6 @@
   gap: 1rem;
 }
 
-.big-card-details > p {
-  font-weight: 700;
-  color: #11111175;
-}
-
 @media only screen and (max-width: 768px) {
   .big-card-container {
     display: hidden;
